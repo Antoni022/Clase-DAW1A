@@ -1,0 +1,119 @@
+body{
+    background-color: #2c0015; /* color de fondo*/
+    color: #eee2c7; /*color de contarste*/
+}
+
+.navbar {
+    text-align: center;
+    padding: 2px;
+    padding-bottom: 20px;
+    /*background-color: ; para poner color de fondo*/
+    /*background-image: url(); ; para poner imagen de fondo*/
+    background: #EEE2C7;
+    background: linear-gradient(90deg, rgba(238, 226, 199, 1) 0%, rgba(238, 226, 199, 1) 40%, rgba(238, 226, 199, 0) 100%);
+    
+}
+
+.navbar h1 {
+    color: #2c0015;
+}
+
+.navbar .links {
+    /* la caja */
+    
+}
+
+.navbar .links .link{
+    /* son los a */
+    text-decoration: none;
+    color: #2c0015;
+    font-size: 1.3em;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #2c0015 1px solid;
+    box-shadow: #eee2c756 2px 4px 4px;
+}
+
+.navbar .links .link:hover{
+    background-color: #2c0015;
+    color: #eee2c7;
+    border: #eee2c7 1px solid;
+}
+
+/* subclases para link
+.link:visited{
+    color: red;
+}
+
+.link:active{
+    color: blue;
+}
+
+.link:link{
+    color: pink;
+} */
+
+.hero {
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 2em;
+}
+
+.hero h2{
+    font-size: 1.5em;
+}
+
+.hero img{
+    width: 200px;
+}
+
+.About_Us {
+
+}
+
+.About_Us h2{
+    font-size: 1.5em;
+}
+
+.About_Us p{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Misc {
+
+}
+
+.footer {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-top: #eee2c7 1px solid;
+}
+
+.footer .logo {
+    padding-top: 20px;
+}
+
+.footer .logo p{
+
+}
+
+.footer .logo img{
+    width: 100px;
+}
+
+.footer .rrss {
+
+}
+
+.footer .rrss img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+

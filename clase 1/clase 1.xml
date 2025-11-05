@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Persona>
+    <nombre>José Luis</nombre>
+    <telefono>
+    <!-- 
+        <fijo>555-1234</fijo>
+        <movil>666-5678</movil>
+        <trabajo>777-9012</trabajo> -->
+    </telefono>
+    <edad>25</edad>
+    <direccion>
+        <calle>Calle Falsa 123</calle>
+        <numero>7</numero>
+        <ciudad>Springfiel </ciudad>
+        <codigoPostal>12345</codigoPostal>
+    </direccion>
+    <estadoCivil>
+        <soltero/>
+        <casado>X</casado>
+        <divorciado></divorciado>
+        <viudo />
+        <unionLibre></unionLibre>
+    </estadoCivil>
+</Persona>

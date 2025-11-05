@@ -1,0 +1,101 @@
+/* Lo comentado son selectores universales(reglas que se aplica a todo)
+*{
+border: 1px solid black;
+}
+:root{
+
+} 
+*/
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5,h6{
+    color: #ffff00;
+}
+
+p{
+    font-size: 20px;
+}
+
+.navbar{
+    background-color: #ffff00;
+    text-align: center;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.navbar h1, h2, h3, h4, h5, h6{
+    color: black;
+}
+
+.navbar a{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: #ffff00;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    box-shadow: 2px 4px 4px black
+}
+
+.About-Us{
+    text-align: center;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.About-Us img{
+    width: 300px;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.About-Us p{
+    color: #ffff00;
+}
+
+.Misc{
+    background-color: #ffff00;
+    text-align: center;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.Misc h1{
+    color: black;
+}
+
+.Form-Contact{
+    text-align: center;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.footer{
+    background-color: #ffff00;
+    text-align: center;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.footer h1{
+    color: black;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.footer img{
+    width: 50px;
+}
